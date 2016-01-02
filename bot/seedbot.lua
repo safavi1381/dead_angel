@@ -220,22 +220,14 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {122774063,106014613},--Sudo users
+    sudo_users = {70742427},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[SBSS Version 1 
 An advance Administration bot based on yagop/telegram-bot by @Mr_Ah_S
 
-https://github.com/MRAHS/SBSS
-
-Admins
-@MR_AH_S [Developer]
-@i81therock [Manager]
-
-
-Our channels
-@SBSS_Team
+admin : @ASFV1
 ]],
     help_text = [[
 :لیست دستورات 
@@ -427,7 +419,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 137653134
+our_id = 70742427
 now = os.time()
 math.randomseed(now)
 started = false
